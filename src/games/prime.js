@@ -4,9 +4,13 @@ import { getRandomNumber } from './../utils.js'
 const rulePrime = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 const isPrime = (number) => {
-  if (number < 2) return 'no'
-  for (let i = 2; i <= Math.sqrt(number); i++) {
-    if (number % i === 0) return 'no'
+  if (number < 2) {
+    return 'no'
+  }
+  for (let i = 2; i < number - 1; i++) {
+    if (number % i === 0) {
+      return 'no'
+    }
   }
   return 'yes'
 }
