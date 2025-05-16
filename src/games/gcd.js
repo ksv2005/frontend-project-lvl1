@@ -15,8 +15,8 @@ const calculateGcd = (firstNumber, secondNumber) => {
 export default () => {
   main(
     function () {
-      const firstNumber = getRandomNumber(101)
-      const secondNumber = getRandomNumber(101)
+      const firstNumber = getRandomNumber(100)
+      const secondNumber = getRandomNumber(100)
       const question = `${firstNumber} ${secondNumber}`
       const correctAnswer = calculateGcd(firstNumber, secondNumber)
       return [question, correctAnswer]
