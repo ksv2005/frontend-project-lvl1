@@ -4,6 +4,9 @@
   "type": "module",
   "description": "Проект #1 обучения на профессию Фронтенд-разработчик от Hexlet",
   "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
