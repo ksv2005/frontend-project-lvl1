@@ -15,7 +15,7 @@ export default (game, rule) => {
     if (String(userAnswer) !== String(correctAnswer)) {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`)
       console.log(`Let's try again, ${name}!`)
-      break
+      return
     }
     console.log(`Correct!`)
     currentRoundCount++

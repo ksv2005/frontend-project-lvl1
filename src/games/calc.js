@@ -1,4 +1,5 @@
 import main from './../engine.js'
+import { getRandomNumber } from './../utils.js'
 
 const operations = ['+', '-', '*']
 const ruleCalc = 'What is the result of the expression?'
@@ -20,9 +21,9 @@ const calculateExpression = (expression) => {
 export default () => {
   main(
     function () {
-      const firstNumber = Math.floor(Math.random() * 101)
-      const operation = operations[Math.floor(Math.random() * 3)]
-      const secondNumber = Math.floor(Math.random() * 101)
+      const firstNumber = getRandomNumber(101)
+      const operation = operations[getRandomNumber(3)]
+      const secondNumber = getRandomNumber(101)
       const question = `${firstNumber} ${operation} ${secondNumber}`
       const correctAnswer = calculateExpression(question)
       return [question, correctAnswer]

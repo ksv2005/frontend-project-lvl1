@@ -1,4 +1,5 @@
 import main from './../engine.js'
+import { getRandomNumber } from './../utils.js'
 
 const ruleEven = 'Answer "yes" if the number is even, otherwise answer "no".'
 
@@ -12,7 +13,7 @@ const isEven = (number) => {
 export default () => {
   main(
     function () {
-      const question = Math.floor(Math.random() * 101)
+      const question = getRandomNumber(101)
       const correctAnswer = isEven(question)
       return [question, correctAnswer]
     },
