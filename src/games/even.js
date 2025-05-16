@@ -13,7 +13,7 @@ const isEven = (number) => {
 export default () => {
   main(
     function () {
-      const question = getRandomNumber(100)
+      const question = getRandomNumber(0, 100)
       const correctAnswer = isEven(question)
       return [question, correctAnswer]
     },

@@ -21,9 +21,9 @@ const calculateExpression = (expression) => {
 export default () => {
   main(
     function () {
-      const firstNumber = getRandomNumber(100)
-      const operation = operations[getRandomNumber(2)]
-      const secondNumber = getRandomNumber(100)
+      const firstNumber = getRandomNumber(0, 100)
+      const operation = operations[getRandomNumber(0, 2)]
+      const secondNumber = getRandomNumber(0, 100)
       const question = `${firstNumber} ${operation} ${secondNumber}`
       const correctAnswer = calculateExpression(question)
       return [question, correctAnswer]
