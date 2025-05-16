@@ -5,3 +5,5 @@
 [![asciicast](https://asciinema.org/a/GoN25yY4DB8SKv3RlXf7xznmw.svg)](https://asciinema.org/a/GoN25yY4DB8SKv3RlXf7xznmw)
 # Игра: "Калькулятор"
 [![asciicast](https://asciinema.org/a/7pfqVUGkpm8qrZkcq9QCJjVJa.svg)](https://asciinema.org/a/7pfqVUGkpm8qrZkcq9QCJjVJa)
+# Игра: "НОД"
+[![asciicast](https://asciinema.org/a/lT5FvNj5Ffm9RwOZNSmr90hVR.svg)](https://asciinema.org/a/lT5FvNj5Ffm9RwOZNSmr90hVR)
