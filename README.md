@@ -1,5 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/ksv2005/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/ksv2005/frontend-project-lvl1/actions)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ksv2005_frontend-project-lvl1&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ksv2005_frontend-project-lvl1)
-# brain-even
+# Игра: "Проверка на чётность"
 [![asciicast](https://asciinema.org/a/GoN25yY4DB8SKv3RlXf7xznmw.svg)](https://asciinema.org/a/GoN25yY4DB8SKv3RlXf7xznmw)
+# Игра: "Калькулятор"
+[![asciicast](https://asciinema.org/a/7pfqVUGkpm8qrZkcq9QCJjVJa.svg)](https://asciinema.org/a/7pfqVUGkpm8qrZkcq9QCJjVJa)
